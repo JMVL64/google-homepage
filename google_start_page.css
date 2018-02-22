@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    paddin: 0;
+}
+.nav {
+    display: inline;
+    padding: 5px 10px 10px 10px;
+    font-family: Arial;
+}
+
+.bar {
+    font-size: 12px;
+}
+
+.hover:hover{
+    text-decoration: underline;
+}
+#signIn {
+    text-align: 0px;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.logo {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 11%;
+	text-align: center;
+}
+
+.searchbar {
+	position: relative;
+}
+.searchbar input {
+	text-align: left;
+	display: block;
+	margin: 25px auto;
+	border: 1px solid hsl(0, 0%, 90%);
+	box-shadow: 5px 5px 5px hsl(0, 0%, 80%);
+	width: 33%;
+	height: 36px;	
+	font-size: 100%;
+	padding-left: 20px;
+}
+
+.searchbuttons {
+    text-align: center;
+}
+.searchbuttons button {
+    background-color:#f2f2f2;
+    color:#808080;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 16px;
+	padding-right: 16px;
+    margin-right: 15px;
+    height: 36px;
+    border: none;
+}
+
+.randomtext {
+    text-align: center;
+    padding-top: 11px;
+}
+.randomtext ul li {
+    font-size: 13px;
+}
+
+.bottomnavupper ul {
+    background-color: hsl(0, 0%, 95%);
+	border: 1px solid hsl(0, 0%, 98%);
+	height: 40px;
+	line-height: 30px;
+	color: hsl(0, 0%, 45%);
+	position: fixed;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+	width: 100%;
+}
+.bottomnavupper li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
